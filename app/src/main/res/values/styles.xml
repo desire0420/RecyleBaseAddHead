@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+    <declare-styleable name="RollViewPager"><attr name="rollviewpager_hint_mode"><enum name="point" value="0"/><enum name="number" value="1"/></attr><attr name="rollviewpager_hint_gravity"><enum name="left" value="0"/><enum name="center" value="1"/><enum name="right" value="2"/></attr><attr format="dimension" name="rollviewpager_hint_paddingRight"/><attr format="dimension" name="rollviewpager_hint_paddingLeft"/><attr format="dimension" name="rollviewpager_hint_paddingTop"/><attr format="dimension" name="rollviewpager_hint_paddingBottom"/><attr format="integer" name="rollviewpager_play_delay"/><attr format="color" name="rollviewpager_hint_color"/><attr format="integer" name="rollviewpager_hint_alpha"/></declare-styleable>
+    <item name="viewpager_inner" type="id"/>
+
+
+    <style name="style_tint_status_bar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <!--<item name="android:clipToPadding">true</item>-->
+        <item name="android:fitsSystemWindows">true</item>
+        <!--<item name="android:background">@color/layout_backgroung</item>-->
+    </style>
+
+    <declare-styleable name="HeaderViewPager">
+        <attr name="hvp_topOffset" format="dimension"/>
+    </declare-styleable>
+</resources>

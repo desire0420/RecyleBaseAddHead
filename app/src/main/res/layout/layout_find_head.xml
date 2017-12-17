@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/status_bar_fix"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#dd3434" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <View
+            android:id="@+id/bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffdd3434" />
+
+        <TextView
+            android:id="@+id/find_search_top"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shape_red_solid_write_stock_search"
+            android:drawableLeft="@mipmap/faxian_sousuo"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:hint="搜索群组名称/用户名/观点"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="12dp"
+            android:singleLine="true"
+            android:textColor="#fcaba7"
+            android:textColorHint="#ffffff"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</LinearLayout>
